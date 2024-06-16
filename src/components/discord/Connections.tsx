@@ -1,6 +1,6 @@
 import AnchorIcon from './icons/AnchorIcon';
 import GitHubIcon from './icons/GitHubIcon';
-import InstagramIcon  from './icons/InstagramIcon';
+import TwitterIcon  from './icons/TwitterIcon';
 import SpotifyIcon from './icons/SpotifyIcon';
 import VerifiedIcon from './icons/VerifiedIcon';
 import RiotIcon from './icons/RiotIcon';
