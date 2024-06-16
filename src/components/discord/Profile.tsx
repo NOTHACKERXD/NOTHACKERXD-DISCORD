@@ -22,7 +22,7 @@ export default function Profile(props: CardProps) {
           <picture>
             <source type="image/webp" srcSet="/images/banner.webp" />
             <source type="image/png" srcSet="/images/banner.png" />
-            <img src="/images/banner.webp" alt="banner" width="300" height="120" aria-hidden="true" draggable="false" className="block select-none" />
+            <img src="/images/banner.webp" alt="banner" width="300" height="120" aria-hidden="true" draggable="false" className="block select-none" padding="20px" />
           </picture>
 
           {/* Avatar */}
