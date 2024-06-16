@@ -1,6 +1,6 @@
 import AnchorIcon from './icons/AnchorIcon';
 import GitHubIcon from './icons/GitHubIcon';
-import InstagramIcon from './icons/InstagramIcon';
+//import InstagramIcon from './icons/InstagramIcon';//
 import SpotifyIcon from './icons/SpotifyIcon';
 import VerifiedIcon from './icons/VerifiedIcon';
 import RiotIcon from './icons/RiotIcon';
@@ -38,7 +38,8 @@ export default function Connections() {
           </a>
         </div>
 
-        {/* instagram */}
+        {/* instagram 
+        {/*
         <div className="h-12 mb-2 text-md w-auto relative flex items-center px-4 justify-between text-white border border-transparent rounded">
           <div className="flex-row flex text-center items-center whitespace-nowrap text-ellipsis overflow-hidden space-x-1">
             <InstagramIcon />
@@ -51,7 +52,7 @@ export default function Connections() {
             <AnchorIcon />
           </a>
         </div>
-
+         */}
         {/* Valorant */}
         {/*
         <div className="h-10 mb-2 text-md w-auto relative flex items-center px-4 justify-between text-white bg-zinc-700 rounded">
