@@ -19,6 +19,12 @@ const nextConfig = {
           "https://open.spotify.com/user/1aajlwkc639uc18a1xc2cip0z?si=93061bd3e03d4060",
         permanent: true,
       },
+       {
+        source: "/instagram",
+        destination:
+          "https://www.instagram.com/nikos_poimenidis_/",
+        permanent: true,
+      },
     ];
   },
 };
