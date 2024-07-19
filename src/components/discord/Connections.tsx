@@ -22,6 +22,20 @@ export default function Connections() {
             <AnchorIcon />
           </a>
         </div>
+
+        {/* Spotify */}
+        <div className="h-12 mb-2 text-md w-auto relative flex items-center px-4 justify-between text-white border border-transparent rounded">
+          <div className="flex-row flex text-center items-center whitespace-nowrap text-ellipsis overflow-hidden space-x-1">
+            <SpotifyIcon />
+            <span className="text-md font-semibold text-white">Nikos pim</span>
+            <div className="w-[16px] h-[16px]">
+              <VerifiedIcon />
+            </div>
+          </div>
+          <a href="/spotify"  rel="noopener noreferrer" target="_blank">
+            <AnchorIcon />
+          </a>
+        </div>
         
         {/* GitHub */}
         <div className="h-12 mb-2 text-md w-auto relative flex items-center px-4 justify-between text-white border border-transparent rounded">
@@ -38,19 +52,7 @@ export default function Connections() {
           </a>
         </div>
         
-        {/* Spotify */}
-        <div className="h-12 mb-2 text-md w-auto relative flex items-center px-4 justify-between text-white border border-transparent rounded">
-          <div className="flex-row flex text-center items-center whitespace-nowrap text-ellipsis overflow-hidden space-x-1">
-            <SpotifyIcon />
-            <span className="text-md font-semibold text-white">Nikos pim</span>
-            <div className="w-[16px] h-[16px]">
-              <VerifiedIcon />
-            </div>
-          </div>
-          <a href="/spotify"  rel="noopener noreferrer" target="_blank">
-            <AnchorIcon />
-          </a>
-        </div>
+        
 
          
         {/* Valorant */}
