@@ -1,6 +1,4 @@
 /** @type {import("next").NextConfig} */
-$ npm i @vercel/speed-insights
-
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
